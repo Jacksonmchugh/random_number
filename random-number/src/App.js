@@ -12,8 +12,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>Press for a random number!</p>
-        <button onClick={randomNumber}>Random Number</button>
-        <p>{number}</p>
+        <button className="button" onClick={randomNumber}>
+          Random Number
+        </button>
+        <p className="random">{number}</p>
       </header>
     </div>
   )
